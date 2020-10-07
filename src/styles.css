@@ -2,3 +2,29 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+a {
+  font-size: 14px;
+}
+a:link {
+  color:  whitesmoke;
+  text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+  color:  whitesmoke;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: whitesmoke;
+  text-decoration: underline;
+}
