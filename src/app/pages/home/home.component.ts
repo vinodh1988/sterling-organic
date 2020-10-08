@@ -14,7 +14,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
        this.ps.getProducts().subscribe(
-          (data:product[])=> {this.productlist=data},
+          (data:product[])=> {
+            this.productlist=data,
+            this.ps.products=data
+          },
           ()=>{this.productlist=[]}
        )
   }

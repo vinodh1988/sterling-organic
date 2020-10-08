@@ -10,7 +10,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ComplaintComponent } from './pages/complaint/complaint.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { ProductComponent } from './reusables/product/product.component'
+import { ProductComponent } from './reusables/product/product.component';
+import { DetailsComponent } from './pages/home/details/details.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { ProductComponent } from './reusables/product/product.component'
     AboutComponent,
     ComplaintComponent,
     ContactComponent,
-    ProductComponent
+    ProductComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
