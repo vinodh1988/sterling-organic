@@ -1,0 +1,11 @@
+h1{
+  color: rgba(83, 31, 6, 0.699);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-left: 40px;
+}
+
+.home-container
+{
+  overflow: hidden;
+  padding: 50px;
+}
